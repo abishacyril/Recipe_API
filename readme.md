@@ -4,11 +4,11 @@
 
 ## Requirements
 
-- MongoDB (local is pre-configured in config.env.env)
+> - MongoDB (local is pre-configured in config.env.env)
 
 ## Usage
 
-Rename "config/config.env.env" to "config/config.env"
+> Rename "config/config.env.env" to "config/config.env"
 
 ## Install Dependencies
 
