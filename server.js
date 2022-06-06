@@ -40,6 +40,12 @@ const server = app.listen(
   )
 );
 
+app.get('/', (req, res) => {
+  res.send(
+    'Welcome To Recipe App. Listing a number of tasty recipes.<br> <br/> Version: 1.0.0 '
+  );
+});
+
 // Handle unhandled promise rejections
 process.on('unhandledRejection', (err, promise) => {
   console.log(`Unhandled Rejection Error: ${err.message}`.red);
